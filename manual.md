@@ -1,5 +1,5 @@
 <a name="top"></a>
-# Manual Javascript para equipo Dev-pro
+# Manual JavaScript para equipo **Dev-pro**
 
 ## Introducción
 Enhorabuena por haber llegado hasta aqui, si estas leyendo este nuevo manual es que has afianzado todos los conocimientos anteriores y estas ya en un nivel bastante avanzado, por lo que voy a explicarte un nuevo lenguaje de programación, con el que trabajamos muy frecuentemente y te va a resultar muy enriquecedor.
@@ -283,7 +283,7 @@ El  `this`  de JavaScript es similar a lo que podríamos encontrar en otros leng
 
 Aquí hay 5 reglas básicas para enlazar  `this`  en JavaScript:
 
-### ********R******egla ******1********
+**Regla 1**
 
 Cuando se llama a una función en el ámbito global,  `this`  hace referencia de forma predeterminada al objeto global (`window`  en el navegador, o  `global`  en Node.js). Por ejemplo:
 
@@ -298,7 +298,7 @@ console.log(a); // 2
 
 Nota: Si declaramos la función  `foo()`  en modo estricto, y luego la llamamos en el ámbito global,  `this`  será  `undefined`  y la asignación  `this.a = 2`  arrojará una excepción `Uncaught TypeError`  (error de tipo no detectado).
 
-### ********R******egla ******2********
+**Regla 2**
 
 Veamos el siguiente ejemplo:
 
@@ -317,7 +317,7 @@ console.log(obj.a); // 2
 
 Claramente, en el fragmento anterior, la función  `foo()`  se llama en el  _contexto_  del objeto  `obj`, por lo tanto  `this`  ahora hace referencia a  `obj`. Entonces, cuando se llama a una función con un objeto de contexto, la referencia `this`  se vincula a dicho objeto.
 
-### ********R******egla ******3********
+**Regla 3**
 
 `.call`,  `.apply`  y  `.bind`  pueden utilizarse para enlazar explícitamente  `this`. Usar  `.bind(this)`  es algo que podemos ver en muchos componentes de React.
 
@@ -335,7 +335,7 @@ Aquí vemos algunos ejemplos rápidos de como utilizar cada uno para enlazar  `t
 -   `.apply()`:  `fn.apply(thisObj, [fnParam1, fnParam2])`
 -   `.bind()`:  `const newFn = fn.bind(thisObj, fnParam1, fnParam2)`
 
-### ********R******egla ******4********
+**Regla 4**
 
 ```javascript
 function Point2D(x, y) {
@@ -352,7 +352,7 @@ Lo que notamos aquí es que al llamar a la función  `Point2D`  utilizando la pa
 
 Nota: A una función que llamamos utilizando la palabra clave  `new`  también la conocemos como  _función constructora._
 
-### ********R******egla ******5********
+**Regla 5**
 
 JavaScript determina el valor de  `this`  en tiempo de ejecución, según el contexto actual. Por eso a veces  `this`  podría no estar apuntando a dónde esperamos.
 
