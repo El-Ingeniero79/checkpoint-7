@@ -24,7 +24,7 @@ JavaScript (JS) es un lenguaje de programación o de secuencias de comandos que 
 ![lenguajes web](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript/cake.png)
 
 
-Se integra facilmente en codigos HTML (ver ejemplo siguiente:
+Se integra facilmente en codigos HTML, ver ejemplo siguiente:
 ```
 <!DOCTYPE html>  
 <html>  
