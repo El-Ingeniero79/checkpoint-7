@@ -1,3 +1,4 @@
+<a name="top"></a>
 # Manual Javascript para equipo Dev-pro
 
 ## Introducción
@@ -15,6 +16,7 @@ Enhorabuena por haber llegado hasta aqui, si estas leyendo este nuevo manual es 
 ---
 <a name="item1"></a>
 ### ¿Qué es JavaScript y que lo diferencia de cualquier otro lenguaje de programación?
+
 JavaScript (JS) es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web, cada vez que una página web hace algo más que sentarse allí y mostrar información estática para que la veas, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D, desplazamiento de máquinas reproductoras de vídeo, etc., puedes apostar que probablemente JavaScript está involucrado. Es la tercera capa del pastel de las tecnologías web estándar, dos de las cuales hemos cubierto con mucho más detalle en otros manuales que anteriormente te hemos proporcionado.
 
 
@@ -52,7 +54,7 @@ La mayor diferencia de este  lenguaje de programación es que su código se ejec
 
 JS también es el encargado de la existencia de herramientas como el Google Analytics, Facebook Pixel entre muchas otras.
 
-
+["Subir"](#top)
 ---
 <a name="item2"></a>
 ### ¿Cuáles son algunos tipos de datos JS?
@@ -94,6 +96,7 @@ console.log(typeof cantidad); // number
 console.log(typeof hoy); // object
 ```
 
+["Subir"](#top)
 
 ---
 
@@ -109,6 +112,9 @@ como has podido ver JavaScript ofrece numerosas funciones predefinidas y mas aun
 
 
 ![imagen](/imagenes/string3.png)
+
+
+["Subir"](#top)
 
 ---
 <a name="item4"></a>
@@ -176,8 +182,11 @@ como puedes ver la estructura es:
 
 var o const =  a la condicion que quieres poner seguido de  ? seguido de lo que quieres ejecutar si la condicion es cierta seguido de dos puntos ( : ) y la condicion else, es decir en caso de no ser cierta la anterior.
 
+["Subir"](#top)
+
 ---
 <a name="item5"></a>
+
 ### ¿Cuál es la diferencia entre una declaración de función y una expresión de función?
 
 Las funciones son uno de los bloques de construcción fundamentales en JavaScript. Una función en JavaScript es similar a un procedimiento — un conjunto de instrucciones que realiza una tarea o calcula un valor, pero para que un procedimiento califique como función, debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y la salida. Para usar una función, debes definirla en algún lugar del ámbito desde el que deseas llamarla.
@@ -443,3 +452,4 @@ Creo que ahora es momento de interiorizar todos estos conceptos y los puedas apl
 
 **Nos vemos en el siguiente manual**
 
+["Subir"](#top)
