@@ -5,7 +5,7 @@
 Enhorabuena por haber llegado hasta aqui, si estas leyendo este nuevo manual es que has afianzado todos los conocimientos anteriores y estas ya en un nivel bastante avanzado, por lo que voy a explicarte un nuevo lenguaje de programación, con el que trabajamos muy frecuentemente y te va a resultar muy enriquecedor.
 
 ---
-## [Indice]
+## ¿Que te vas a encontrar en este manual?:
 ### [¿Qué es JavaScript y que lo diferencia de cualquier otro lenguaje de programación?](#item1)
 ### [¿Cuáles son algunos tipos de datos JS?](#item2)
 ### [¿Cuáles son las tres funciones de String en JS?](#item3)
@@ -269,6 +269,8 @@ var soyUnaExpresion = function() {
 Dato Curioso: En las expresiones de funciones darle nombre a la función es opcional. En cambio para las declaraciones es obligatorio.
 
 Tienes que tener claro que las inspecciones para corregir un error en las expresiones son mucho mas dificiles que en las declaraciones.
+
+["Subir"](#top)
 
 ---
 
