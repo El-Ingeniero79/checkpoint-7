@@ -6,14 +6,14 @@ Enhorabuena por haber llegado hasta aqui, si estas leyendo este nuevo manual es 
 ---
 ## [Indice]
 ### [¿Qué es JavaScript y que lo diferencia de cualquier otro lenguaje de programación?](#item1)
-### ¿Cuáles son algunos tipos de datos JS?
-### ¿Cuáles son las tres funciones de String en JS?
-### [¿Qué es un condicional?](#¿que-es-un-condicional?)
-### ¿Cuál es la diferencia entre una declaración de función y una expresión de función?
-### ¿Qué es la palabra clave "this" en JS?
+### [¿Cuáles son algunos tipos de datos JS?](#item2)
+### [¿Cuáles son las tres funciones de String en JS?](#item3)
+### [¿Qué es un condicional?](#item4)
+### [¿Cuál es la diferencia entre una declaración de función y una expresión de función?](#item5)
+### [¿Qué es la palabra clave "this" en JS?](#item6)
 
 ---
-
+<a name="item1"></a>
 ### ¿Qué es JavaScript y que lo diferencia de cualquier otro lenguaje de programación?
 JavaScript (JS) es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web, cada vez que una página web hace algo más que sentarse allí y mostrar información estática para que la veas, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D, desplazamiento de máquinas reproductoras de vídeo, etc., puedes apostar que probablemente JavaScript está involucrado. Es la tercera capa del pastel de las tecnologías web estándar, dos de las cuales hemos cubierto con mucho más detalle en otros manuales que anteriormente te hemos proporcionado.
 
@@ -54,7 +54,7 @@ JS también es el encargado de la existencia de herramientas como el Google Anal
 
 
 ---
-<a name="item1"></a>
+<a name="item2"></a>
 ### ¿Cuáles son algunos tipos de datos JS?
 
 Ahora que ya sabes que es JavaScript (JS) y que diferencias tiene con los otros leguajes, vamos a adentrarnos en el tipo de datos que existen en JS.
@@ -97,6 +97,7 @@ console.log(typeof hoy); // object
 
 ---
 
+<a name="item3"></a>
 ### ¿Cuáles son las tres funciones de String en JS?
 
 como has podido ver JavaScript ofrece numerosas funciones predefinidas y mas aun si lo que queremos trabajar con cadenas de texto. Entre las posibilidades que ofrecen estas funciones tenemos el extraer un carácter, extraer un fragmento de cadena, separar una cadena en múltiples cadenas indicando un separador, etc.
@@ -110,6 +111,7 @@ como has podido ver JavaScript ofrece numerosas funciones predefinidas y mas aun
 ![imagen](/imagenes/string3.png)
 
 ---
+<a name="item4"></a>
 ### ¿Qué es un condicional?
 estamos ahora ya en un apartado muy interesante y muy util. los condicionales, es decir poner una condicion para que se ejecute el codigo o parte de el, y en caso de no cumplirse la condicion que no se ejecute, o ejecutar otra orden que definamos.
 
@@ -175,6 +177,7 @@ como puedes ver la estructura es:
 var o const =  a la condicion que quieres poner seguido de  ? seguido de lo que quieres ejecutar si la condicion es cierta seguido de dos puntos ( : ) y la condicion else, es decir en caso de no ser cierta la anterior.
 
 ---
+<a name="item5"></a>
 ### ¿Cuál es la diferencia entre una declaración de función y una expresión de función?
 
 Las funciones son uno de los bloques de construcción fundamentales en JavaScript. Una función en JavaScript es similar a un procedimiento — un conjunto de instrucciones que realiza una tarea o calcula un valor, pero para que un procedimiento califique como función, debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y la salida. Para usar una función, debes definirla en algún lugar del ámbito desde el que deseas llamarla.
@@ -259,6 +262,8 @@ Dato Curioso: En las expresiones de funciones darle nombre a la función es opci
 Tienes que tener claro que las inspecciones para corregir un error en las expresiones son mucho mas dificiles que en las declaraciones.
 
 ---
+
+<a name="item6"></a>
 ### ¿Qué es la palabra clave "this" en JS?
 
 Ahora te voy a explicar como una palabra tan sencilla puede ser tan dificil de entender. Es una palabra reservada en JavaScript que podemos utilizar para referirnos al contexto en el que se invoca, por lo que su valor implícito puede variar durante la ejecución del código.
